@@ -1,3 +1,24 @@
+.top-container {
+  background-color: #474744;
+  color: #ffb400;
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: powderblue;
+}
+
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
 body {
-  background-color: blue;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
 }
