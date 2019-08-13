@@ -8,9 +8,17 @@
 
 .middle-container {
   background-color: #fffbe0;
-  position: relative;
-  margin-top:0;
+  position: absolute;
+  margin: 0;
   padding-top: 175px;
+}
+
+.bottom-container{
+  display: block;
+  background-color: #fabc60;
+  margin: auto;
+
+
 }
 
 
@@ -37,9 +45,31 @@
   padding-top: 50px;
 }
 
+#bio{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  padding-bottom: 30px;
+
+}
+
+#computer{
+  width:25%;
+  float: left;
+  margin-right: 50px;
+}
+
+#rocket{
+  width:25%;
+  float: right;
+  margin-left: 5px;
+}
+
+
 body {
   margin: 0;
   text-align: center;
+
   font-family: 'Nunito', sans-serif;
 }
 
@@ -52,6 +82,11 @@ h1 {
 h2{
   color: #3a9679;
   font-size: 2rem;
+}
+
+h3{
+  color:#11144c;
+  font-size: 1.5rem;
 }
 
 
@@ -69,4 +104,20 @@ h2{
   border-width: 10px;
   border-color: #e16262;
   width: 10%;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.fab{
+  padding:8px;
+  color:#e16262;
+}
+
+.fab:hover{
+  color:black !important;
 }
