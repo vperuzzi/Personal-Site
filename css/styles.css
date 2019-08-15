@@ -49,7 +49,7 @@
   width: 50%;
   margin: auto;
   line-height: 2;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 
 }
 
@@ -62,19 +62,18 @@
 #rocket{
   width:25%;
   float: right;
-  margin-left: 5px;
+  margin-left: 50px;
 }
 
 
 body {
   margin: 0;
   text-align: center;
-
   font-family: 'Nunito', sans-serif;
 }
 
 h1 {
-  margin 50px auto 0 auto;
+  margin: 50px auto 0 auto;
   font-family: 'Pacifico', cursive;
   font-size: 4.5rem;
 }
@@ -120,4 +119,21 @@ h3{
 
 .fab:hover{
   color:black !important;
+}
+
+.btn {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #e16262;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a84343;
+  text-decoration: none;
 }
